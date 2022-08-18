@@ -15,7 +15,7 @@ public class DropDownSelect {
 		
 		driver.get("http://seleniumlearn.com/program-drop-down-select-option");
 		
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		
 		new Select(driver.findElement(By.id("transactionType"))).selectByIndex(2);
 		
